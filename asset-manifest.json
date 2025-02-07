@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/anna-tidepools-juneau/static/css/main.23dc10a1.css",
-    "main.js": "/anna-tidepools-juneau/static/js/main.1d7912dc.js",
+    "main.css": "/anna-tidepools-juneau/static/css/main.fc9b2a27.css",
+    "main.js": "/anna-tidepools-juneau/static/js/main.9a9511c2.js",
     "static/js/453.70919f05.chunk.js": "/anna-tidepools-juneau/static/js/453.70919f05.chunk.js",
     "index.html": "/anna-tidepools-juneau/index.html",
-    "main.23dc10a1.css.map": "/anna-tidepools-juneau/static/css/main.23dc10a1.css.map",
-    "main.1d7912dc.js.map": "/anna-tidepools-juneau/static/js/main.1d7912dc.js.map",
+    "main.fc9b2a27.css.map": "/anna-tidepools-juneau/static/css/main.fc9b2a27.css.map",
+    "main.9a9511c2.js.map": "/anna-tidepools-juneau/static/js/main.9a9511c2.js.map",
     "453.70919f05.chunk.js.map": "/anna-tidepools-juneau/static/js/453.70919f05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23dc10a1.css",
-    "static/js/main.1d7912dc.js"
+    "static/css/main.fc9b2a27.css",
+    "static/js/main.9a9511c2.js"
   ]
 }
