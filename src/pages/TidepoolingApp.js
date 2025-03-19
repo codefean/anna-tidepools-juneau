@@ -4,6 +4,8 @@ import { fetchTideLevel } from "./fetchTide";
 import TideSearch from "./tideSearch";
 import "./TidepoolingApp.css";
 
+// cd /Users/seanfagan/Desktop/tidepooling-app2
+
 const TidepoolingApp = () => {
   const [checkedSpecies, setCheckedSpecies] = useState({});
   const [expandedCategories, setExpandedCategories] = useState({});
