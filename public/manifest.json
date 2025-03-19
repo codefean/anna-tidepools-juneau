@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Anna Tidepools!",
+  "name": "Tidepooling!",
+  "description": "A web app for Anna tidepooling in Juneau, Alaska",
+  "lang": "en-US",
   "icons": [
     {
       "src": "favicon.ico",
