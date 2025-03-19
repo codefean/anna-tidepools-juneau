@@ -15,18 +15,13 @@
   font-size: 1rem;
 }
 
-/* Search results container */
 .search-results {
   margin-top: 0.5rem;
   max-height: 10rem;
   overflow-y: auto;
   border-radius: 5px;
   background: #ffffffbe;
-  margin-left: 26px;
-  width: 88%;
-  max-width: 230px !important; /* Adjust as needed */
 }
-
 
 
 
