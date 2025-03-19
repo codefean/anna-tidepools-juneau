@@ -4,7 +4,6 @@
   display: block; /* Change from inline-block */
   margin: 0 auto;
   width: 100%;
-  max-width: 400px;
   
 }
 
@@ -21,17 +20,19 @@
   margin-top: 0.5rem;
   max-height: 10rem;
   overflow-y: auto;
-  border: 1px solid #ddd;
   border-radius: 5px;
   background: #ffffffbe;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-left: 15px;
+  width: 88%;
+  max-width: 230px !important; /* Adjust as needed */
 }
+
+
+
 
 /* Individual search result */
 .search-result {
-  padding: 0.5rem;
+  padding: 0.3rem;
   cursor: pointer;
   transition: background 0.2s ease-in-out;
 }
@@ -46,7 +47,6 @@
   background: none;
   border: none;
   font-size: 1rem;
-  text-align: left;
   cursor: pointer;
   padding: 0;
 }
@@ -72,6 +72,6 @@
   }
 
   .search-results {
-    max-height: 15rem; /* Increase height for better scrolling */
+    max-height: 15rem;/* Increase height for better scrolling */
   }
 }
