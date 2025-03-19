@@ -15,10 +15,10 @@
 /* Normal text for the tide data */
 .tide-data {
   font-size: 1rem;
-  color: #000000; /* Dark gray */
+  color: #000000;
   line-height: 9px;
-  font-style: bold;
 }
+
 
 /* Mobile adjustments */
 @media (max-width: 480px) {
@@ -32,4 +32,8 @@
     line-height: .4;
     margin-bottom: 2px;
   }
+}
+
+.bold-text {
+  font-weight: bold;
 }
