@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/anna-tidepools-juneau/static/css/main.18417699.css",
-    "main.js": "/anna-tidepools-juneau/static/js/main.c0eac04d.js",
+    "main.js": "/anna-tidepools-juneau/static/js/main.1b0c9f6f.js",
     "static/js/453.70919f05.chunk.js": "/anna-tidepools-juneau/static/js/453.70919f05.chunk.js",
     "index.html": "/anna-tidepools-juneau/index.html",
     "main.18417699.css.map": "/anna-tidepools-juneau/static/css/main.18417699.css.map",
-    "main.c0eac04d.js.map": "/anna-tidepools-juneau/static/js/main.c0eac04d.js.map",
+    "main.1b0c9f6f.js.map": "/anna-tidepools-juneau/static/js/main.1b0c9f6f.js.map",
     "453.70919f05.chunk.js.map": "/anna-tidepools-juneau/static/js/453.70919f05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18417699.css",
-    "static/js/main.c0eac04d.js"
+    "static/js/main.1b0c9f6f.js"
   ]
 }
