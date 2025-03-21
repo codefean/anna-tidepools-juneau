@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
 import speciesList from "./speciesList";
-import { fetchTideLevel } from "./fetchTide";
+import { TideDisplay } from "./fetchTide";
 import TideSearch from "./tideSearch";
 import "./TidepoolingApp.css";
 
-// cd /Users/seanfagan/Desktop/tidepooling-app2
+//cd /Users/seanfagan/Desktop/tidepooling-app3
 
 const TidepoolingApp = () => {
   const [checkedSpecies, setCheckedSpecies] = useState({});
   const [expandedCategories, setExpandedCategories] = useState({});
   const [speciesImages, setSpeciesImages] = useState({});
-  const [tideLevel, setTideLevel] = useState("");
 
   useEffect(() => {
     const savedChecked = JSON.parse(localStorage.getItem("checkedSpecies")) || {};
@@ -22,10 +21,6 @@ const TidepoolingApp = () => {
       localStorage.setItem("checkedSpecies", JSON.stringify(checkedSpecies));
     }
   }, [checkedSpecies]);
-
-  useEffect(() => {
-    fetchTideLevel(setTideLevel);
-  }, []);
 
   const fetchINaturalistImage = async (scientificName) => {
     try {
@@ -121,18 +116,10 @@ const TidepoolingApp = () => {
 
   return (
     <div className="container">
-      <h1 className="title">ANNA GOES TIDEPOOLING</h1>
+      <h1 className="title">TIDEPOOLING</h1>
 
-      <div className="tide-container">
-        <p className="tide-title">Tides in Juneau</p>
-        {tideLevel ? (
-          tideLevel.split("\n").map((line, index) => (
-            <p key={index} className="tide-data">{line}</p>
-          ))
-        ) : (
-          <p className="tide-data">Loading...</p>
-        )}
-      </div>
+      <TideDisplay />
+
 
       <TideSearch onSpeciesSelect={handleSpeciesClick} />
       {speciesList.map((group) => (
